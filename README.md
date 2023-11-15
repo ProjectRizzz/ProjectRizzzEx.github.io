@@ -1,1 +1,1 @@
-# ProjectRizzzEx.github.io
+# ProjectRizEx.github.io
