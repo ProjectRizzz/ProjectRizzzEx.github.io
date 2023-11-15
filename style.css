@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppis, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(img2.jpg);
+  background-size: cover;
+  backdrop-filter: blur;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.row {
+  font-family: poppins, sans-serif;
+  font-size: larger;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo {
+  margin-top: 250px;
+  background-image: url(imgMe.jpg);
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #0b0b0b;
+  margin-bottom: 50px;
+}
+
+.Portfolio-handle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.u {
+  color: color-mix(in srgb, color percentage, color percentage);
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.link-list {
+  list-style-type: none;
+  padding: 0;
+  width: 600px;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+}
+
+.link-list a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(3, 0, 0);
+  padding: 10px;
+  margin-bottom: 5;
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  transition: bacgroun-color 0.3s;
+}
+
+.link-list a:hover {
+  background-color: rgb(0, 0, 0);
+  color: hwb(0 100% 0%);
+  animation: alternate-reverse;
+  transition: 1s;
+  z-index: 1;
+}
+
+/*media Queries*/
+
+/* Laptop */
+@media (max-width) {
+  html {
+    font-size: 100%;
+  }
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+/* Mobile Phone*/
+@media (max-width: 450px) {
+  html {
+    font-size: 62%;
+  }
+}
